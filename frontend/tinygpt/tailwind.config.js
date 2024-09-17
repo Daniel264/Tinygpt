@@ -11,4 +11,10 @@ export default {
     // eslint-disable-next-line no-undef
     require('daisyui'),
   ],
+  themes: [
+    'light',
+    'dark',
+    'synthwave',
+    // Add any other themes you want here
+  ],
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import DarkMode from "./DarkMode";
 
 const MenuBar = () => {
   return (
@@ -37,7 +38,7 @@ const MenuBar = () => {
                   <a>Navbar Item 1</a>
                 </li>
                 <li>
-                  <a>Navbar Item 2</a>
+                  <DarkMode />
                 </li>
               </ul>
             </div>
@@ -57,7 +58,7 @@ const MenuBar = () => {
               <a>Sidebar Item 1</a>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <DarkMode />
             </li>
           </ul>
         </div>
