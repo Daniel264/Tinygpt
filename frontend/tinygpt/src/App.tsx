@@ -1,9 +1,10 @@
 import "./App.css";
+import MenuBar from "./components/MenuBar";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-medium">Hello World</h1>
+      <MenuBar />
     </>
   );
 }
